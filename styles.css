@@ -1,0 +1,57 @@
+.btn-group{
+    font-size: 25%;
+    height: 100vh;
+    border: none; /* Green border */
+    color: black; /* White text */
+    padding: 0px 0px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 100%; /* Set a width if needed */
+    display: flex; /* Make the buttons appear below each other */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+  .btn-group button:not(:last-child) {
+    border-bottom: none; /* Prevent double borders */
+  }
+
+  .waves-button {
+      font-size: 11.11vh;
+      border: none;
+      width: 100%;
+      height: 33.3vh;
+      background-color: #ED254E;
+  }
+
+  .waves-button:hover {
+      background-color: #F04C6E
+  }
+
+  .waves-button:active {
+      background-color: #C21F40;
+  }
+
+    .mechanics-button {
+        font-size: 11.11vh;
+        height: 33.3vh;
+        width: 100%;
+        border: none;
+    background-color: #F9DC5C
+}
+
+.mechanics-button:hover {
+    background-color: #FBE897
+}
+
+.electricity-button {
+    font-size: 11.11vh;
+    width: 100%;
+    height: 33.3vh;
+    border: none;
+    background-color: #208AAE
+}
+
+.electricity-button:hover {
+    background-color: #71B4CB
+}
